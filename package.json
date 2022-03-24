@@ -4,12 +4,14 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "devStart":"nodemon script.js"
+    "devStart": "nodemon script.js",
+    "expressDev": "nodemon learnexpress.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.3",
     "mongoose": "^6.2.7"
   },
   "devDependencies": {
